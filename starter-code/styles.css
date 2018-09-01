@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+
+/* estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans, OpenSans, sans-serif;
+}
+
+h1 {
+  margin: 50px auto 10px auto;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 10px auto;
+  padding-top: 80px;
+}
+
+.content-width {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* estilos <nav> */
+.nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+  height: 20px;
+  font-family: Source Sans Pro, Lucida Grande, sans-serif;
+}
+
+.nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.nav a:hover {
+  color: white;
+}
+
+.nav span {
+  margin: 0 10px;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  margin: 0 20px;
+}
+
+/* estilos header */
+.header {
+  background: url(https://cdn.rawgit.com/roterom/lab-html-module-exercise/master/starter-code/images/city-scape.svg);
+  background-size: cover;
+  color: white;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.npm-logo {
+  display: inline-block;
+  float: left;
+  height: 40px;
+  margin: 10px;
+  align-content: center;
+}
+
+.bear-logo {
+  display: inline-block;
+  height: 35px;
+  margin: 10px 10px;
+  margin-left: 0;
+  float: right;
+}
+
+.search {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.search-bar {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid grey;
+  padding: 10px;
+  width: 95%;
+}
+
+.search-btn {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid grey;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: -5px;
+}
+
+.search-btn:hover {
+  color: white;
+}
+
+.header-top-right {
+  float: right;
+}
+
+.header-links {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  float: left;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0 6px;
+}
+
+.header-links a:hover {
+  color: white;
+}
+
+.header-text p {
+  width: 450px;
+  font-size: 0.9em;
+  margin: 30px 0;
+}
+
+#sign-up-npm {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+#sign-up-npm:hover {
+  background-color: rgb(220, 126, 31)
+}
+
+
+/*estilos sección 1 */
+.wrap-section1 {
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+.content-section1 img {
+  float: left;
+  padding: 40px 0px;
+  height: 300px;
+  background-size: cover;
+  margin: 50px 0;
+  display: inline-block;
+}
+
+.section1-text {
+  float: right;
+  width: 40%;
+}
+
+.section1-text ul {
+  padding-left: 20px;
+}
+
+.section1-text li {
+  margin: 25px 0;
+  font-size: 0.8em;
+}
+
+#sign-up-orgs {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(203, 56, 55);
+}
+
+#sign-up-orgs:hover {
+  background-color: rgb(183, 36, 35);
+}
+
+#read-more {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#read-more:hover {
+  text-decoration: underline;
+}
+
+.section1-text span {
+  font-size: 0.8em;
+}
+
+/* estilos sección 2 */
+.section2 {
+  background: url(https://cdn.rawgit.com/roterom/lab-html-module-exercise/master/starter-code/images/forklift.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  margin: -10px auto 0 auto;
+} 
+
+#install-now {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+#install-now:hover {
+  background-color: rgb(29, 48, 68);
+}
+
+.section2-text p {
+  width: 300px;
+  margin: 20px 0;
+}
+
+/*estilos sección 3 */
+.section3-text {
+  text-align: center;
+}
+
+.section3-text p, .box p {
+  color: rgb(135, 145, 156);
+}
+
+.box {
+  text-align: center;
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+
+.box b {
+  display: block;
+  margin: 10px auto;
+}
+
+.box a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+/*estilo footer */
+footer p {
+  text-align: right;
+  background-color: black;
+  color: white;
+  padding-right:20px;
+  font-weight: bold;
+}
+
